@@ -1,0 +1,26 @@
+<!--Text/Password Fields
+Create a page that contains a login form
+The form should contain username and password fields
+Add text to indicate which field is intended for what
+Login form should contain "forgot password" link
+When the user clicks on the link, they are redirected to a new "Reset password" page
+Reset page contains:
+an input text field that user uses to provide an email address
+"Send" link that redirects the user back to the login form-->
+
+<!DOCTYPE html>
+    <head>
+        <title>Forme</title>
+    </head>
+    <body>
+        <form method="post">
+            <p>Username:
+                <input type="text" name="username" size="50"/>
+            </p>
+            <p>Password:
+                <input type="password" name="password" size="50"/>
+            </p>
+            <a href="./exerciseForme_resetPassword.html">Forgot password?</a>
+        </form>
+    </body>
+</html>

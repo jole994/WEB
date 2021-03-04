@@ -1,0 +1,30 @@
+<!--Textarea/Radio/Checkbox
+Create a page that simulates a school quiz, containing multiple questions:
+The first question should contain multiple options out of which the student can select only one
+The second quiz question has multiple options out of which the user can select several
+The third question should require from user to insert some long text
+-->
+<!DOCTYPE html>
+    <head>
+        <title>Forme</title>
+    </head>
+    <body>
+        <form method="get">
+            <p>Result of (1+2+3) equation is:<br>
+                <input type="radio" name="result1" value="1"/>1 <br>
+                <input type="radio" name="result1" value="2"/>2 <br>
+                <input type="radio" name="result1" value="5"/>5 <br>
+                <input type="radio" name="result1" value="6"/>6 <br>
+            </p>
+            <p>Check correct answers: <br>
+                <input type="checkbox" name="result2" value="1"/>1+1=2 <br>
+                <input type="checkbox" name="result2" value="2"/>2+1=5 <br>
+                <input type="checkbox" name="result2" value="5"/>5+6=4 <br>
+                <input type="checkbox" name="result2" value="-2"/>6+0=6 <br>
+            </p>
+            <p> Comments below: <br>
+                <textarea name="comments" cols="20" rowa="6" placeholder="comm"></textarea> <br>
+            </p>
+        </form>
+    </body>
+</html>
