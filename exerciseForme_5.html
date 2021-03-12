@@ -1,0 +1,128 @@
+<!--HTML5 elements (required, date, email, url, search)
+● Create a form for Facebook posts scheduling
+● The page should have one form that consists of elements, labels and a
+submit button
+● It should have one required text field (Name)
+● A field for date on which the post should be created
+● A URL field for a website that will be used for the post
+● A field that contains an email address to which an email is sent after
+publishing the post-->
+<!DOCTYPE html>
+    <head>
+        <title>Domaci</title>
+    </head>
+    <body>
+        <h1>Prvi zadatak</h1>
+        <fieldset>
+            <legend>Facebook posts scheduling</legend>
+                    <br>
+                    <form method="post" action=" ">
+                        <label for="username">Username:</label>
+                        <input type="text" name="username" required>
+                        <br>
+                        <br>
+                        <label for="datum">Datum:</label>
+                        <input type="date" name="datum">
+                        <br>
+                        <br>
+                        <label for="website">Please enter website adress:</label>
+                        <input name="website" type="url" placeholder="websiteadress.com">
+                        <br>
+                        <br>
+                        <label for="email">Please enter email adress:</label>
+                        <input name="email" type="email" placeholder="someone@example.com">
+                        <br>
+                        <br>
+                        <input type="submit" value="Submit">
+                    </form>
+        </fieldset>
+
+
+<!--Labels/Grouping
+● Creates a form used for catering reservations
+● The form contains multiple elements split into groups
+● Each element should have a label assigned to it
+
+First group
+● Name of the group should be &quot;Personal data&quot;
+● The first field is for the name
+● The second one is for the email address
+● The third is for the phone number
+
+Second group
+● Name of the group should be &quot;Location&quot;
+● It should contain fields for:
+○ City
+○ Street
+○ Street number
+
+Third group
+● Name of the group should be &quot;Event info&quot;
+● The first element is dropdown containing the following options:
+○ birthday
+○ wedding (should be selected by default)
+○ company
+● The second element is for getting number of expected guests and it’s
+an input type element
+● Placeholder is a number you choose-->
+<br>
+<h1>Drugi zadatak</h1>
+        <fieldset>
+            <legend>Personal data</legend>
+            <form>
+                <br>
+                <label for="Name">Enter your name:</label>
+                <input type="text" name="Name" required>
+                <br>
+                <br>
+                <label for="e-mail">Enter your e-mail adress:</label>
+                <input type="email" name="e-mail" placeholder="someone@example.com">
+                <br>
+                <br>
+                <label for="phone">Enter your phone number:</label>
+                <input type="tel" name="phone" value="+381">
+                <br>
+                <br>
+            </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Location</legend>
+            <form>
+                <br>
+                <label for="city">City:</label>
+                <input type="text" name="city">
+                <br>
+                <br>
+                <label for="street">Street name:</label>
+                <input type="text" name="street">
+                <br>
+                <br>
+                <label for="number">Street number:</label>
+                <input type="text" name="number" >
+                <br>
+                <br>
+            </form>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Event info</legend>
+            <form>
+                <br>
+                <label for="event">Choose event:</label>
+                <select name="event">
+                    <option value="birthday">Birthday</option>
+                    <option value="wedding" selected="selected">Wedding</option>
+                    <option value="company">Company</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <label for="guests">Number of Guests:</label>
+                <input type="number" name="guests" placeholder="20">
+                <br>
+                <br>
+            </form>
+        </fieldset>
+     </body>
+     </html>

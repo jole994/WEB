@@ -1,0 +1,123 @@
+<!--Dropdown/Multiselect
+Create a page that contains three dropdown (selects) in one row
+Dropdowns are used by the user to provide the day, month and year of birth
+The page also contains multiselect box
+Multiselect box contains "categories" out of which the user can select several
+Reset/Button/Hidden
+Create a form that contains multiple elements (text, textarea, radio)
+At the end of the form, there are two buttons:
+The first one is a reset button used for resetting form
+The second button contains an image and text inside it (it's a submit button
+-->
+<!DOCTYPE html>
+    <head>
+        <title>Forme vezbanje</title>
+    </head>
+    <body>
+        <form method="post">
+            <p> dan:
+            <select name="dan">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+            </select>
+
+             mesec:
+            <select  name="mesec">
+            <option value="1">Januar</option>
+            <option value="2">Februar</option>
+            <option value="3">Mart</option>
+            <option value="4">April</option>
+            <option value="5">Maj</option>
+            <option value="6">Jun</option>
+            <option value="7">Jul</option>
+            <option value="8">Avgust</option>
+            <option value="9">Septembar</option>
+            <option value="10">Oktobar</option>
+            <option value="11">Novembar</option>
+            <option value="12">Decembar</option>
+            </select>
+
+            godina:
+            <select name="godina">
+            <option value="1">2000</option>
+            <option value="2">1999</option>
+            <option value="3">1998</option>
+            <option value="4">1997</option>
+            <option value="5">1996</option>
+            <option value="6">1995</option>
+            <option value="7">1994</option>
+            <option value="8">1993</option>
+            <option value="9">1992</option>
+            <option value="10">1991</option>
+            <option value="11">1990</option>
+            <option value="12">1989</option>
+            </select>
+            </p>
+
+        </form>
+        <hr>
+
+        <form>
+            <br><p>odaberi omiljeno pice</p>
+            <select name="pice" size="4" multiple="multiple">
+                <option value="sok" selected="selected">sok</option>
+                <option value="vino" selected="selected">vino</option>
+                <option value="voda" selected="selected">voda</option>
+                <option value="pivo" selected="selected">pivo</option>
+            </select>
+            <!--pitati Tijanu-->
+        </form>
+        
+        <hr>
+        <form>
+            <br><p>Unesite Vase ime:</p>
+            <input type="text" placeholder="Ime...">
+<br>
+            <br><p>Unesite Vase prezime:</p>
+            <input type="text" placeholder="Prezime...">
+<br>
+            <br><p> Molim Vas,popunite: <br>
+                <textarea name="comments" cols="50" row="8" placeholder="napisite nesto o sebi..."></textarea> <br>
+            </p>
+            <br><p>boja ociju<br>
+                <input type="radio" name="result1" value="zelena"/>zelena <br>
+                <input type="radio" name="result1" value="plava"/>plava <br>
+                <input type="radio" name="result1" value="braon"/>braon <br>
+            </p>
+            <input type="reset" value="Reset"> <br><br>
+            <p>Proverite podatke, pa kliknite submit:</p>
+            <input type="image" src="https://blog.udemy.com/wp-content/uploads/2014/02/shutterstock_61850923-300x290.jpg"
+             width="70" height="50">
+        </form>
+    </body>
+</html>
+
