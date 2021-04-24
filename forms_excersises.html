@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms Excersises</title>
+    <style>
+      span {
+        font-family: sans-serif;
+        color: rgb(255, 197, 91);
+        font-size: 30px;
+        font-weight: 600;
+      }
+      .bcg {
+        background-color: rgb(205, 214, 221);
+        width: 330px;
+        -webkit-border-top-left-radius: 30px;
+        -webkit-border-bottom-right-radius: 30px;
+        -moz-border-radius-topleft: 30px;
+        -moz-border-radius-bottomright: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+      .headerForm {
+        border-bottom: rgb(168, 169, 192) 1px solid;
+        font-size: 30px;
+        font-weight: 600;
+        text-align: center;
+        width: 245px;
+        margin: 0px auto;
+        padding-top: 38px;
+        font-family: sans-serif;
+        color: rgb(45, 60, 105);
+      }
+      body > div {
+        width: fit-content;
+        border: solid black 2px;
+        padding: 20px 30px;
+        margin: 0px auto;
+      }
+      form {
+        width: fit-content;
+        margin: 0px auto;
+        padding: 20px 0px;
+        font-family: sans-serif;
+        color: rgb(45, 60, 105);
+      }
+      input {
+        height: 28px;
+        margin: 10px 0px;
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        border: 1px solid #b9b9c4;
+        -webkit-box-shadow: -9px -2px 26px -12px rgb(73, 75, 80);
+        -moz-box-shadow: -9px -2px 26px -12px rgb(55, 57, 63);
+        box-shadow: -9px -2px 26px -12px rgb(39, 39, 41);
+        cursor: pointer;
+      }
+      .subm{
+        width:240px;
+        background-color:rgb(184, 73, 73) ;
+        color: rgb(236, 240, 243);
+        font-weight: 400;
+        height:30px ;
+        cursor: url("apli2.jpg"), auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="bcg">
+        <div class="headerForm">
+            Form<span>Get</span>
+        </div>
+
+        <form>
+          <p>
+            Full Name <br />
+            <input
+              type="text"
+              name="fullName"
+              size="30"
+              placeholder="Full Name"
+            />
+          </p>
+
+          <p>
+            Email <br />
+            <input type="email" name="email" size="30" placeholder="Email " />
+          </p>
+
+          <p>
+            Contact Number <br />
+            <input
+              type="text"
+              name="contact"
+              size="30"
+              placeholder="Contact Number"
+            />
+          </p>
+
+          <p>
+            Address <br />
+            <input type="text" name="address" size="30" placeholder="Address" />
+          </p>
+
+          <p>
+            <input class="subm" type="submit" name="sub" size="30" />
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

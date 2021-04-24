@@ -1,0 +1,113 @@
+body{
+    font-family: sans-serif;
+    color:navy;
+    background-color: #eee;
+    margin:none;
+}
+
+h1{
+    font-size: 26pt;
+    font-variant: small-caps;
+    color:#ccf;
+    background-color: navy;
+    text-align: right;
+    padding: 4px 10px;
+    margin-top: 0px;
+    border-top:8px #88c solid;
+    border-bottom:8px #88c solid;
+    width: 100%;
+}
+
+.par {
+    width:80%;
+    margin-top: 0px;
+    margin-bottom:26pt;
+    text-align:justify;
+    
+    border-left:10px solid #88c; 
+    position: relative;      /*   --->     relativna pozicija u odnosu na parent element?        */
+    left: 10%;              /*   --->      pa kaze 10% levo (10 i desno),pa je samim tim        */
+    padding-left:10px;     /*   --->      paragraf sirine 80% centriran na sredinu div-a(100%) */
+}
+
+div{
+    width: 100%;
+    height: fit-content;
+    margin:0%;
+}
+
+p.comment{
+    width:30%;
+    text-align: left;
+    padding:12.8px;       
+    font-size: 80%;
+    margin-right: 5px;
+    border-top: tomato solid 4px;
+    border-bottom: tomato solid 4px;
+    border-left: tomato solid 2px;
+    border-right: tomato solid 2px;
+    background-color: rgb(238, 235, 74);
+    color:tomato;
+    position: relative;
+    left:70%;
+}
+
+h3{
+    border-bottom: dotted 5px #88d ;
+    width:90%;
+    position: relative;   
+    left: 5%;               
+}
+
+table{
+    border:solid black 4px;
+    margin-top:26pt;
+    margin-bottom: 26pt;
+    margin: 0 auto;    
+}
+
+td{
+    border-bottom: 2px black solid;
+    border-left: #a88 1px solid;
+    margin:0px;
+}
+
+th{
+    border-bottom: 2px black solid;
+    border-left: #a88 1px solid;
+    margin:0px;
+}
+
+.div{
+    text-align: center;
+    font-weight: 600;
+    width:400px;
+    margin:26pt auto;
+    padding: 10px;
+    border: double rgb(8, 66, 8) 15px; 
+    background-color: rgb(155, 235, 155);
+    color: rgb(8, 66, 8);
+}
+
+.header {
+    font-weight: 700;
+    color: ivory;
+    background-color: rgb(26, 26, 66);
+}
+
+ul{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 26pt;
+    margin-bottom: 26pt;
+
+    
+}
+
+a{
+    font-family: serif;
+    font-style: italic;
+    font-weight: 600;
+    color: crimson;
+    text-decoration: none;
+}

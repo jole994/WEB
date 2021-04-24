@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Positioning</title>
+    <style>
+      * {
+          box-sizing: border-box;
+      }
+      .outer{
+          width: 970px;
+          margin:0px auto;
+          padding: 0px;
+      }
+      .divMenu{
+          background-color: rgb(177, 45, 22);
+          width: 100%;
+          margin:0px auto;
+          position: relative;
+          height:fit-content;
+          padding: 5px;
+      }
+      ul{
+          height: 40px;
+          margin:0px;
+          position:inherit;
+          padding-left: 5px;
+          list-style-type: none;
+          padding-bottom: 5px;
+          padding-top: 5px;
+      }
+      ul li{
+          height:30px;
+          float:right;
+          width:70px ;
+          text-align: center;
+          padding-top: 5px;
+          padding-bottom: 5px;
+      }
+       .divMenu ul li:hover{
+        font-size: 20px;
+
+      }
+      a{
+          text-decoration: none;
+          color: ivory;
+          font-weight: 600;
+      }
+      img{
+          width: 100%;
+          margin:0 auto;
+          border-top: 2px solid white;
+      }
+      .row1{
+        width: 100%;
+
+      }
+      .row{
+          width: 100%;
+      }
+      .c{
+          width:300px;
+          height:fit-content;
+          display: inline-block;
+          margin: 10px;
+      }
+      .div{
+          margin:0px;
+          width:300px;
+          height: 200px;
+          padding-top: 100px;
+          padding-bottom: 100px;
+          text-align: center;
+          color: ivory;
+          font-weight: 600;
+      }
+      div p{
+          width:300px;
+      }
+      .red{
+          background-color: tomato;
+      }
+      .black{
+        background-color: rgb(8, 8, 54);
+      }
+      .yellow{
+        background-color: rgb(250, 201, 42);
+      }
+      .green{
+          background-color: rgb(53, 134, 43);
+      }
+      .yellowSubmenu{
+          margin-right: 0px;
+          margin-top: 0px;
+          width: 250px;
+          display: inline-block;
+          position: relative;
+          top:-140px;
+          left:70px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background-color:rgb(250, 201, 42) ;
+
+      }
+      .listElem{
+        background-color:rgb(250, 201, 42) ;
+        width: 250px;
+        display: block;
+        text-align: left;
+        padding:8px 60px 8px 10px;
+        height: fit-content;
+        border-bottom:2px dotted gray;
+      }
+      .listElem:hover{
+          font-weight: 700;
+          cursor:pointer;
+          color: rgb(14, 78, 14);
+      }
+      .footer{
+          background-color: rgb(19, 19, 63);
+          color: ivory;
+          height: 50px;
+          padding-left: 200px;
+          padding-top: 15px;
+          padding-bottom: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="divMenu">
+        <ul>
+          <li ><a href="">Blog</a></li>
+          <li ><a href="">Contact</a></li>
+          <li ><a href="">About</a></li>
+          <li><a href="">Home</a></li>
+        </ul>
+      </div>
+      <img src="homeworkpositioningPic.jpg" />
+
+        <div class="row1">
+            <div class="c">
+                <div class="div red">300x200</div>
+                <div>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                    </p>
+                </div>
+            </div>
+            <div class="c">
+                <div class="div black">300x200</div>
+                <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                </p>
+                </div>
+                
+            </div>
+            <div class="yellowSubmenu">
+                <ul>
+                    <li class="listElem">Rebuilding slack.com</li>
+                    <li class="listElem">Zasto bootcamp format?</li>
+                    <li class="listElem">React-prozor u svet web aplikacija</li>
+                    <li class="listElem">Najvece zablude o programerima u Srbiji</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="c">
+                <div class="div yellow">300x200</div>
+                <div>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                    </p>
+                </div>
+            </div>
+            <div class="c">
+                <div class="div green">300x200</div>
+                <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                </p>
+                </div>
+                
+            </div>
+            <div class="c">
+                <div class="div red">300x200</div>
+                <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                </p>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="c">
+                <div class="div black">300x200</div>
+                <div>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                    </p>
+                </div>
+            </div>
+            <div class="c">
+                <div class="div yellow">300x200</div>
+                <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                </p>
+                </div>
+                
+            </div>
+            <div class="c">
+                <div class="div green">300x200</div>
+                <div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur.
+                </p>
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        @BitStudent
+    </div>
+  </body>
+</html>

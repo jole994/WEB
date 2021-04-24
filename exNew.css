@@ -1,0 +1,75 @@
+.par1{
+    background-color: rgb(226, 223, 173);
+    width:400px;
+    height:500px;
+    overflow:scroll;
+}
+
+.par2{
+    background-color: rgb(243, 108, 108);
+    overflow:auto;
+    width:600px;
+    height:300px;
+}
+
+.dyn1{
+    max-width: 300px;
+    overflow:hidden;
+    background-color: rgb(226, 223, 173);
+    width:400px;
+    height:500px;
+}
+
+.dyn2{
+    max-height: 200px;
+    overflow:visible;
+    background-color: rgb(243, 108, 108);
+    width:600px;
+    height:300px;
+}
+
+
+
+.lastFirst{
+    border:dashed rgb(238, 63, 63) 5px;
+    background-color: rgb(226, 223, 173);
+}
+
+.mid{
+    border:solid rgb(21, 105, 21) 5px;
+    background-color: rgb(226, 223, 173);
+}
+
+.padd1and3{
+    padding: 50px;
+}
+
+.paddmid{
+    padding-top: 50px;
+}
+
+
+.marg1{
+    width:300px;
+    margin: 50px;
+}
+
+.marg2{
+    width:400px;
+    margin:auto;
+}
+.marg3{
+    width:200px;
+    margin-left: 100px;
+}
+
+h5{
+    font-style: italic;
+    font-weight: normal;
+    font-size: larger;
+}
+
+h1{
+    color:rgb(21, 21, 92);
+}
+

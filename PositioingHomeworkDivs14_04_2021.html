@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creating Divs</title>
+    <style>
+      div {
+        width: 200px;
+        height: 200px;
+      }
+      .div1_1 {
+        background-color: tomato;
+      }
+      .div2_1 {
+        background-color: rgb(238, 206, 27);
+      }
+      .div3_1 {
+        background-color: rgb(24, 24, 61);
+      }
+
+
+
+      .div1_2 {
+        background-color: tomato;
+        position: relative;
+      }
+      .div2_2 {
+        background-color: rgb(238, 206, 27);
+        position: relative;
+        left:100px;
+        top:-100px;
+      }
+      .div3_2 {
+        background-color: rgb(24, 24, 61);
+        position: relative;
+        top:-200px;
+        left:200px;
+      }
+
+
+
+      .div1_3 {
+        background-color: tomato;
+        position: relative;
+        z-index: 3;
+      }
+      .div2_3 {
+        background-color: rgb(238, 206, 27);
+        position: relative;
+        left:-100px;
+        top:-100px;
+        z-index: 2;
+
+      }
+      .div3_3 {
+        background-color: rgb(24, 24, 61);
+        position: relative;
+        top:-200px;
+        left:-200px;
+        z-index: 1;
+
+      }
+      .bigdiv {
+          float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div1_1"></div>
+    <div class="div2_1"></div>
+    <div class="div3_1"></div>
+    <hr>
+    <div class="div1_2"></div>
+    <div class="div2_2"></div>
+    <div class="div3_2"></div>
+    <hr>
+    <div class="bigdiv">
+        <div class="div1_3"></div>
+        <div class="div2_3"></div>
+        <div class="div3_3"></div>
+    </div>
+  </body>
+</html>
