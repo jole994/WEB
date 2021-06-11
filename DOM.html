@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        h2{
+            margin-top: 70px;
+        }
+        /*Selecting One/Multiple Elements*/
+        .second{
+            background-color: rgb(190, 114, 114);
+        }
+        .changeColour {
+            background-color: rgb(170, 219, 56);
+        }
+        .blueClass{
+            background-color: cornflowerblue;
+        }
+        .thirdList{
+            background-color: rgb(218, 187, 111);
+            text-transform: uppercase;
+        }
+        
+        /*Traversing*/
+        .active{
+            background-color: rgb(46, 109, 46);
+        }
+
+        /*Access/Update Text Node*/
+        .updateTxtNode{
+            font-weight: 600;
+        }
+        /*InnerHTML*/
+        select{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Selecting One/Multiple Elements</h2>
+    <h4>first list</h4>
+    <ul>
+        <li>bread</li>
+        <li>milk</li>
+        <li>sugar</li>
+    </ul>
+
+    <h4>second list</h4>
+    <ul class="second">
+        <li>sunglasses</li>
+        <li>towel</li>
+        <li>umbrella</li>
+    </ul>
+
+    <h4>third list</h4>
+    <ul >
+        <li>something</li>
+        <li>something 2</li>
+        <li>something 3</li>
+    </ul>
+
+
+
+
+    <h2>Traversing</h2>
+
+    <h4>first list</h4>
+    <div>
+        <ul >
+            <li>item </li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    </div>
+
+    <h4>second list</h4>
+    <div>
+        <ul >
+            <li class="active">item </li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    </div>
+
+
+    <h2>Access/Update Text Node</h2>
+    <ul class="updateTxtNode">
+        <li>Home </li>
+        <li>Products</li>
+        <li>About Us</li>
+        <li>Change This</li>
+    </ul>
+
+
+    <h2 class="innerHTML">InnerHTML</h2>
+
+    <div>
+        <!--InnerHTML place to use-->
+    </div>
+
+        <!--DOM Manipulation methods place to use-->
+
+    <script src="DOM_exercise.js"></script>
+</body>
+</html>
+
