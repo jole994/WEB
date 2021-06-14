@@ -53,8 +53,9 @@ function changeLastLI(inputTxt){
 
 
 //InnerHTML
+var titleInnerHTML=document.querySelector(".innerHTML");
+
 function createdByInnerHTMl(arr){
-    var titleInnerHTML=document.querySelector(".innerHTML");
     var buildHTML="<select name='fruits' id='fruits'>";
     for(var i=0; i<arr.length; i++){
         buildHTML+="<option value='" + arr[i] + "'>"+ arr[i] +"</option>";
@@ -79,7 +80,13 @@ for(var i=0; i<arr.length; i++){
     newSelect.appendChild(newOption);
 }
 newDiv.appendChild(newSelect);
-document.body.appendChild(newDiv);
+var where=titleInnerHTML.nextElementSibling
+where.appendChild(newDiv);
 
 }
 createdByDOMmanipulation(["vine","milk","water","beer","tea","coffe"]);
+
+
+
+
+
