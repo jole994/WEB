@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\pp"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "pp"
+	}
+}

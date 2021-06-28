@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+.bottomBorder{
+    border-bottom: 2px solid #4ca323;
+}
+.active{
+    color:rgb(194, 84, 161);
+}
