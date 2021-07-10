@@ -1,0 +1,79 @@
+
+body{
+   background-image: url('https://thumbs.dreamstime.com/b/vector-cinema-pattern-cinema-seamless-background-vector-cinema-pattern-cinema-seamless-background-vector-illustration-113988638.jpg');
+   h2{
+      background-color: ivory;
+      padding-top: 7px;
+      padding-bottom: 7px;
+   }
+}
+header {
+   position: relative;
+   width: 100%;
+}
+.noResults{
+   text-align: center;
+}
+#searchList {
+   position: absolute;
+   top: 50px;
+   background-color:#f0f0f0;
+   list-style: none;
+   padding-left: 0;
+   z-index:5;
+   li {
+      padding-left: 5px;
+      border-bottom: 1px solid black;
+      text-align: left;
+      text-overflow: clip;
+   }
+}
+#searchList:hover li{
+   cursor: pointer;
+}
+#searchList li:hover{
+   color:rgb(37, 37, 138);
+   font-weight: 500;
+   padding-top: 6px;
+   padding-bottom: 6px;
+   height:fit-content;
+}
+.card{
+   margin: 10px;
+}
+.cardHover:hover{
+   cursor: pointer;
+   background-color: #828F86;
+}
+
+.cardHolder{
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: ivory;
+   margin-left: 11%;
+   margin-right: 11%;
+}
+
+.containerNav{
+//@extend .container;
+   padding-left: 14%;
+   padding-right: 14%;
+}
+
+
+@media screen and (max-width: 900px){
+
+   .cardHolderSinglePage{
+      display: block;
+      padding:5px;
+      *{
+         margin: 0px;
+         display: block;
+         flex-grow: 1;
+         width: 100%;
+         text-align: center;
+      }
+   }
+}

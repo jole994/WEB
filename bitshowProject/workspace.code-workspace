@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\pp"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\pp\\MVCpattern\\examStatistics"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Desktop"
+	}
+}
